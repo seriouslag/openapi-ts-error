@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "working": "rm -rf src/generated/* && openapi-ts -f working-openapi-ts.config.ts",
+    "working2": "rm -rf src/generated/* && openapi-ts -f working-openapi-ts.config.ts",
     "error": "rm -rf src/generated/* && openapi-ts -f error-openapi-ts.config.ts"
   },
   "author": "",
