@@ -1,0 +1,23 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: TEST
+servers:
+  - url: http://localhost:3000
+paths:
+  /test1/{pathId}:
+    get:
+      summary: This endpoint uses the same pathId as the other endpoint
+      parameters:
+        - $ref: path.yaml#/pathId
+      responses:
+        '200':
+          description: Test 1 response
+  /test2/{pathId}:
+    get:
+      summary: This endpoint uses the same pathId as the other endpoint
+      parameters:
+        - $ref: path.yaml#/pathId
+      responses:
+        '200':
+          description: Test 2 response

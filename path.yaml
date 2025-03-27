@@ -1,0 +1,13 @@
+pathId:
+  name: pathId
+  in: path
+  required: true
+  schema:
+    type: string
+    format: uuid
+pathId2:
+  name: pathId2
+  in: path
+  required: true
+  schema:
+    type: string

@@ -1,0 +1,20 @@
+{
+  "name": "openapi-ts-error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "working": "rm -rf src/generated/* && openapi-ts -f working-openapi-ts.config.ts",
+    "error": "rm -rf src/generated/* && openapi-ts -f error-openapi-ts.config.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hey-api/client-axios": "^0.6.3"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "^0.64.15",
+    "@types/node": "^22.13.14",
+    "typescript": "^5.8.2"
+  }
+}

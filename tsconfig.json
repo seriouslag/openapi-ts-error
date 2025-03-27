@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "types": ["node"],
+    "outDir": "./dist"
+  },
+  "include": ["./openapi-ts.config.ts", "./src/**/*.ts"]
+}
